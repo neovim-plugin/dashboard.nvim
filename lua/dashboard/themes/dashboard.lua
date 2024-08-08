@@ -56,7 +56,7 @@ local function button(sc, txt, keybind, keybind_opts)
     cursor = 3,
     width = 50,
     align_shortcut = "right",
-    hl_shortcut = "Keyword",
+    hl_shortcut = "DashboardShortcut",
   }
   if keybind then
     keybind_opts = if_nil(keybind_opts, { noremap = true, silent = true, nowait = true })
