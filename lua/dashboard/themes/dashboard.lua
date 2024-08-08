@@ -27,7 +27,7 @@ local default_header = {
   },
   opts = {
     position = "center",
-    hl = "Type",
+    hl = "DashboardHeader",
     -- wrap = "overflow";
   },
 }
@@ -37,7 +37,7 @@ local footer = {
   val = "",
   opts = {
     position = "center",
-    hl = "Number",
+    hl = "DashboardFooter",
   },
 }
 
